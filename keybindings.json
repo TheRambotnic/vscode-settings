@@ -1,0 +1,369 @@
+// Place your key bindings in this file to override the defaults
+[
+	// F1 - toggle minimap
+	{
+		"key": "f1",
+		"command": "editor.action.toggleMinimap"
+	},
+
+	// F2 - toggle side bar
+	{
+		"key": "f2",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+
+	// F5 - execute MSSQL query (Extension: SQL Server (mssql) = https://github.com/Microsoft/vscode-mssql)
+	{
+		"key": "f5",
+		"command": "mssql.runQuery",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+
+	// F7 - debug start
+	{
+		"key": "f7",
+		"command": "workbench.action.debug.start",
+		"when": "debuggersAvailable && debugState != 'initializing'"
+	},
+
+	// F7 - debug continue
+	{
+		"key": "f7",
+		"command": "workbench.action.debug.continue",
+		"when": "inDebugMode"
+	},
+
+	// F9 - debug toggle breakpoint
+	{
+		"key": "f9",
+		"command": "editor.debug.action.toggleBreakpoint"
+	},
+
+	// CTRL + F9 - connect to SQL Server (must have file extension set to SQL)
+	{
+		"key": "ctrl+f9",
+		"command": "mssql.connect",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+
+	// CTRL + SHIFT + D - duplicate line/selection
+	{
+		"key": "ctrl+shift+d",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "editor.action.duplicateSelection"
+	},
+
+	// CTRL + K - creates a line comment
+	{
+		"key": "ctrl+k",
+		"command": "editor.action.commentLine"
+	},
+
+	// CTRL + SHIFT + K - creates a block (selection) comment
+	{
+		"key": "ctrl+shift+k",
+		"command": "editor.action.blockComment"
+	},
+
+	// CTRL + U - upper case strings
+	{
+		"key": "ctrl+u",
+		"command": "editor.action.transformToUppercase",
+		"when": "editorTextFocus"
+	},
+
+	// CTRL + SHIFT + U - lower case strings
+	{
+		"key": "ctrl+shift+u",
+		"command": "editor.action.transformToLowercase",
+		"when": "editorTextFocus"
+	},
+
+	// CTRL + M - move file to a new panel
+	{
+		"key": "ctrl+m",
+		"command": "workbench.action.splitEditor"
+	},
+
+	// CTRL + ALT + L - selects the next occurrence of the current word.
+	{
+		"key": "ctrl+alt+l",
+		"command": "editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus"
+	},
+
+	// CTRL + P - opens a menu containing all the files within your project's folder
+	{
+		"key": "ctrl+p",
+		"command": "workbench.action.quickOpen"
+	},
+
+	// CTRL + ALT + V - opens HTML file in browser (Extension: open in browser = https://github.com/SudoKillMe/vscode-extensions-open-in-browser)
+	{
+		"key": "ctrl+alt+v",
+		"command": "extension.openInDefaultBrowser"
+	},
+
+	// (ABNT2) 	CTRL + ; - select language
+	// (QWERTY) CTRL + / - select language
+	{
+		"key": "ctrl+oem_2",
+		"command": "workbench.action.editor.changeLanguageMode"
+	},
+
+	// CTRL + SHIFT + X - view extensions
+	{
+		"key": "ctrl+shift+x",
+		"command": "workbench.view.extensions",
+		"when": "viewContainer.workbench.view.extensions.enabled"
+	},
+
+	// (ABNT2) 	CTRL + ' - toggle integrated terminal
+	// (QWERTY) CTRL + ~ - toggle integrated terminal
+	{
+		"key": "ctrl+oem_3",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+
+	// CTRL + J - rename symbol (refactor name in all files)
+	{
+		"key": "ctrl+j",
+		"command": "editor.action.rename"
+	},
+
+
+
+
+
+
+
+
+	
+
+	/*************************************************************
+				REMOVE DEFAULT KEYBINDS
+	*************************************************************/
+	{
+		"key": "ctrl+k ctrl+c",
+		"command": "-editor.action.addCommentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+k ctrl+u",
+		"command": "-editor.action.removeCommentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "-editor.action.deleteLines",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+shift+k",
+		"command": "-editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+k ctrl+u",
+		"command": "-editor.action.transformToUppercase",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "-cursorUndo",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "f2",
+		"command": "-editor.action.rename",
+		"when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "f2",
+		"command": "-debug.renameWatchExpression",
+		"when": "watchExpressionsFocused"
+	},
+	{
+		"key": "f2",
+		"command": "-debug.setVariable",
+		"when": "variablesFocused"
+	},
+	{
+		"key": "f2",
+		"command": "-remote.tunnel.label",
+		"when": "tunnelViewFocus && tunnelType == 'Forwarded'"
+	},
+	{
+		"key": "ctrl+k ctrl+l",
+		"command": "-editor.action.transformToLowercase",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+u",
+		"command": "-workbench.action.output.toggleOutput",
+		"when": "workbench.panel.output.active"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "-editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+oem_5",
+		"command": "-workbench.action.splitEditor"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "-editor.action.toggleTabFocusMode"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "-editor.action.jumpToBracket",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+oem_5",
+		"command": "-workbench.action.splitEditorOrthogonal"
+	},
+	{
+		"key": "shift+alt+2",
+		"command": "-workbench.action.splitEditor"
+	},
+	{
+		"key": "ctrl+k ctrl+up",
+		"command": "-workbench.action.splitEditor"
+	},
+	{
+		"key": "ctrl+l",
+		"command": "-expandLineSelection",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+shift+l",
+		"command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+i",
+		"command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "-workbench.action.quickOpen"
+	},
+	{
+		"key": "f1",
+		"command": "-workbench.action.showCommands"
+	},
+	{
+		"key": "alt+b",
+		"command": "-extension.openInDefaultBrowser"
+	},
+	{
+		"key": "ctrl+oem_2",
+		"command": "-editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+oem_2",
+		"command": "-toggleExplainMode",
+		"when": "suggestWidgetVisible"
+	},
+	{
+		"key": "ctrl+k m",
+		"command": "-workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "f5",
+		"command": "-workbench.action.debug.start",
+		"when": "debuggersAvailable && debugState != 'initializing'"
+	},
+	{
+		"key": "f5",
+		"command": "-workbench.action.debug.continue",
+		"when": "inDebugMode"
+	},
+	{
+		"key": "f7",
+		"command": "-editor.action.diffReview.next",
+		"when": "isInDiffEditor"
+	},
+	{
+		"key": "f7",
+		"command": "-editor.action.wordHighlight.next",
+		"when": "editorTextFocus && hasWordHighlights"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-mssql.runQuery",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "-mssql.connect",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "-mssql.disconnect",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+	{
+		"key": "ctrl+shift+oem_3",
+		"command": "-workbench.action.terminal.new",
+		"when": "terminalProcessSupported"
+	},
+	{
+		"key": "shift+alt+a",
+		"command": "-editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+oem_2",
+		"command": "-editor.action.blockComment",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+oem_2",
+		"command": "-editor.foldAllBlockComments",
+		"when": "editorTextFocus && foldingEnabled"
+	},
+	{
+		"key": "ctrl+shift+oem_2",
+		"command": "-editor.action.commentLine",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-editor.action.joinLines",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "-workbench.action.togglePanel"
+	},
+	{
+		"key": "shift+f9",
+		"command": "-editor.debug.action.toggleInlineBreakpoint",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "f9",
+		"command": "-editor.debug.action.toggleBreakpoint",
+		"when": "debuggersAvailable && editorTextFocus"
+	}
+]

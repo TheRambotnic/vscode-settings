@@ -1,0 +1,36 @@
+{
+    "files.encoding": "utf8",
+    // "editor.fontFamily": "Ubuntu Mono",
+    "editor.fontFamily": "Consolas",
+    "window.title": "${activeEditorShort}${separator}${rootName}",
+    "editor.wordWrap": "off",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.fontSize": 12,
+    "editor.insertSpaces": false,
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "comments": "#00FF00"
+        }
+    },
+    "workbench.colorTheme": "Monokai",
+
+    // SQL Server Extension Configs
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        },
+        {
+            "server": "DESKTOP-KTIAA41",
+            "database": "",
+            "authenticationType": "Integrated",
+            "profileName": "Rambotnic",
+            "password": ""
+        }
+    ],
+    "editor.autoIndent": "advanced"
+}
