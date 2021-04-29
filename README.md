@@ -20,6 +20,15 @@ If you'd like to know the keybinds available, you can open `keybindings.json` wh
 explaining what each keybind do.
 
 ## Settings
+* **Encoding type**: UTF-8
+* **Font family**: Consolas
+* **Word wrap**: OFF
+* **Multi cursor modifier**: CTRL (Windows) / COMMAND (Mac)
+* **Font size**: 12px
+* **Auto indent style**: advanced
+* **Startup behavior**: start with blank file
+* **Color scheme**: Monokai (with green-colored comments)
+
 If you're running VS Code on Linux, open `settings.json` and uncomment line 3 and comment line 4. This will 
 make the editor use Ubuntu Mono as the default font.
 
