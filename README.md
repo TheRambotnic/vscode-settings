@@ -4,7 +4,6 @@ These are the settings, keybinds, extensions and snippets that I use for Visual 
 ## Extensions (REQUIRED)
 Some settings require these extensions to be installed beforehand:
 * [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-* [Sublime Commands](https://marketplace.visualstudio.com/items?itemName=Zarel.sublime-commands)
 * [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 * [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
