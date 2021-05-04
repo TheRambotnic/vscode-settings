@@ -39,6 +39,20 @@
 		"command": "editor.debug.action.toggleBreakpoint"
 	},
 
+	// ALT + UP ARROW - move line up
+	{
+		"key": "alt+up",
+		"command": "editor.action.moveLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+
+	// ALT + DOWN ARROW - move line down
+	{
+		"key": "alt+down",
+		"command": "editor.action.moveLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+
 	// CTRL + F9 - connect to SQL Server (must have file extension set to SQL)
 	{
 		"key": "ctrl+f9",
@@ -365,5 +379,25 @@
 		"key": "f9",
 		"command": "-editor.debug.action.toggleBreakpoint",
 		"when": "debuggersAvailable && editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+down",
+		"command": "-editor.action.moveLinesDownAction",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+up",
+		"command": "-editor.action.moveLinesUpAction",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+up",
+		"command": "-editor.action.moveLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+down",
+		"command": "-editor.action.moveLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
 	}
 ]
