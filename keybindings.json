@@ -103,6 +103,18 @@
 		"command": "workbench.action.splitEditor"
 	},
 
+	// CTRL + O - open file
+	{
+		"key": "ctrl+o",
+		"command": "workbench.action.files.openFile"
+	},
+
+	// CTRL + SHIFT + O - open folder
+	{
+		"key": "ctrl+shift+o",
+		"command": "workbench.action.files.openFolder"
+	},
+
 	// CTRL + ALT + L - selects the next occurrence of the current word.
 	{
 		"key": "ctrl+alt+l",
@@ -399,5 +411,17 @@
 		"key": "alt+down",
 		"command": "-editor.action.moveLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+o",
+		"command": "-workbench.action.files.openFile"
+	},
+	{
+		"key": "ctrl+k ctrl+o",
+		"command": "-workbench.action.files.openFolder"
+	},
+	{
+		"key": "ctrl+shift+o",
+		"command": "-workbench.action.gotoSymbol"
 	}
 ]
