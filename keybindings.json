@@ -1,15 +1,15 @@
 // Place your key bindings in this file to override the defaults
 [
-	// F1 - toggle minimap
+	// F1 - toggle side bar
 	{
 		"key": "f1",
-		"command": "editor.action.toggleMinimap"
+		"command": "workbench.action.toggleSidebarVisibility"
 	},
 
-	// F2 - toggle side bar
+	// F2 - toggle minimap
 	{
 		"key": "f2",
-		"command": "workbench.action.toggleSidebarVisibility"
+		"command": "editor.action.toggleMinimap"
 	},
 
 	// F5 - execute MSSQL query (Extension: SQL Server (mssql) = https://github.com/Microsoft/vscode-mssql)
