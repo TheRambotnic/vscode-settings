@@ -28,5 +28,6 @@
 			"user": "{{put-username-here}}",
 			"password": ""
 		}
-	]
+	],
+	"workbench.editor.untitled.hint": "hidden"
 }
