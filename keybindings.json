@@ -156,6 +156,14 @@
 		"when": "terminal.active"
 	},
 
+	// (ABNT2) 	CTRL + SHIFT + ' - split integrated terminal
+	// (QWERTY) CTRL + SHIFT + ~ - split integrated terminal
+	{
+		"key": "ctrl+shift+oem_3",
+		"command": "workbench.action.terminal.split",
+		"when": "terminalFocus && terminalProcessSupported"
+	},
+
 	// CTRL + J - rename symbol (refactor name in all files)
 	{
 		"key": "ctrl+j",
@@ -423,5 +431,10 @@
 	{
 		"key": "ctrl+shift+o",
 		"command": "-workbench.action.gotoSymbol"
+	},
+	{
+		"key": "ctrl+shift+5",
+		"command": "-workbench.action.terminal.split",
+		"when": "terminalFocus && terminalProcessSupported"
 	}
 ]
