@@ -103,6 +103,18 @@
 		"command": "workbench.action.splitEditor"
 	},
 
+	// CTRL + ALT + Right Arrow - move file into next group
+	{
+		"key": "ctrl+alt+right",
+		"command": "workbench.action.moveEditorToNextGroup"
+	},
+
+	// CTRL + ALT + Left Arrow - move file into previous group
+	{
+		"key": "ctrl+alt+left",
+		"command": "workbench.action.moveEditorToPreviousGroup"
+	},
+
 	// CTRL + O - open file
 	{
 		"key": "ctrl+o",
@@ -436,5 +448,13 @@
 		"key": "ctrl+shift+5",
 		"command": "-workbench.action.terminal.split",
 		"when": "terminalFocus && terminalProcessSupported"
-	}
+	},
+	{
+		"key": "ctrl+alt+right",
+		"command": "-workbench.action.moveEditorToNextGroup"
+	},
+	{
+		"key": "ctrl+alt+left",
+		"command": "-workbench.action.moveEditorToPreviousGroup"
+	},
 ]
