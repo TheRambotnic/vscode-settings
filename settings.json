@@ -30,5 +30,7 @@
 		}
 	],
 	"workbench.editor.untitled.hint": "hidden",
-	"workbench.iconTheme": "vscode-icons"
+	"workbench.iconTheme": "vscode-icons",
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.startupPrompt": "never"
 }
