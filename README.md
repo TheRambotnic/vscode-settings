@@ -7,7 +7,7 @@ Some settings require these extensions to be installed beforehand:
 * [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 * [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
-* [vscode-icons](https://github.com/vscode-icons/vscode-icons)
+* [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 ## For Windows users
 After downloading the files, place them in `%appdata%/Code/User/`.
