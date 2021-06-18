@@ -29,5 +29,6 @@
 			"password": ""
 		}
 	],
-	"workbench.editor.untitled.hint": "hidden"
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.iconTheme": "vscode-icons"
 }
