@@ -15,7 +15,7 @@ After downloading the files, place them in `%appdata%/Code/User/`.
 ## For Linux users
 After downloading the files, place them in `home/YourUserName/.config/Code/User`.
 
-## Keybinds
+## Keybindings
 If you'd like to know the keybinds available, you can open `keybindings.json` which contains comments 
 explaining what each keybind do.
 
@@ -23,11 +23,12 @@ explaining what each keybind do.
 * **Encoding type**: UTF-8
 * **Font family**: Consolas
 * **Word wrap**: OFF
-* **Multi cursor modifier**: CTRL (Windows) / COMMAND (Mac)
+* **Multi cursor modifier**: CTRL (Windows and Linux) / COMMAND (Mac)
 * **Font size**: 12px
 * **Auto indent style**: advanced
-* **Startup behavior**: start with blank file
+* **Startup behavior**: start with blank editor
 * **Color scheme**: Monokai (with green-colored comments)
+* **Workspace Trust prompt**: OFF
 
 If you're running VS Code on Linux, open `settings.json` and uncomment line 3 and comment line 4. This will 
 make the editor use Ubuntu Mono as the default font.
