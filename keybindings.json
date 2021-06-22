@@ -1,66 +1,64 @@
 // Place your key bindings in this file to override the defaults
 [
-	// F1 - toggle side bar
+	// F1 | toggle side bar
 	{
 		"key": "f1",
 		"command": "workbench.action.toggleSidebarVisibility"
 	},
 
-	// F2 - toggle minimap
+	// F2 | toggle minimap
 	{
 		"key": "f2",
 		"command": "editor.action.toggleMinimap"
 	},
 
-	// F5 - execute MSSQL query (Extension: SQL Server (mssql) = https://github.com/Microsoft/vscode-mssql)
+	// F5 | execute MSSQL query (Extension: SQL Server (mssql) = https://github.com/Microsoft/vscode-mssql)
 	{
 		"key": "f5",
 		"command": "mssql.runQuery",
 		"when": "editorTextFocus && editorLangId == 'sql'"
 	},
 
-	// F7 - debug start
+	// F7 | debug start/continue
 	{
 		"key": "f7",
 		"command": "workbench.action.debug.start",
 		"when": "debuggersAvailable && debugState != 'initializing'"
 	},
-
-	// F7 - debug continue
 	{
 		"key": "f7",
 		"command": "workbench.action.debug.continue",
 		"when": "inDebugMode"
 	},
 
-	// F9 - debug toggle breakpoint
+	// F9 | debug toggle breakpoint
 	{
 		"key": "f9",
 		"command": "editor.debug.action.toggleBreakpoint"
 	},
 
-	// ALT + UP ARROW - move line up
+	// ALT + UP ARROW | move line up
 	{
 		"key": "alt+up",
 		"command": "editor.action.moveLinesUpAction",
 		"when": "editorTextFocus && !editorReadonly"
 	},
 
-	// ALT + DOWN ARROW - move line down
+	// ALT + DOWN ARROW | move line down
 	{
 		"key": "alt+down",
 		"command": "editor.action.moveLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly"
 	},
 
-	// CTRL + F9 - connect to SQL Server (must have file extension set to SQL)
+	// CTRL + F9 | connect to SQL Server (must have file extension set to SQL)
 	{
 		"key": "ctrl+f9",
 		"command": "mssql.connect",
 		"when": "editorTextFocus && editorLangId == 'sql'"
 	},
 
-	// CTRL + SHIFT + D - duplicate line/selection
+	// CTRL + SHIFT + D | duplicate line/selection
 	{
 		"key": "ctrl+shift+d",
 		"command": "editor.action.copyLinesDownAction",
@@ -71,112 +69,112 @@
 		"command": "editor.action.duplicateSelection"
 	},
 
-	// CTRL + K - creates a line comment
+	// CTRL + K | toggle/creates a line comment
 	{
 		"key": "ctrl+k",
 		"command": "editor.action.commentLine"
 	},
 
-	// CTRL + SHIFT + K - creates a block (selection) comment
+	// CTRL + SHIFT + K | toggle/creates a block/selection comment
 	{
 		"key": "ctrl+shift+k",
 		"command": "editor.action.blockComment"
 	},
 
-	// CTRL + U - upper case strings
+	// CTRL + U | transform selection to upper case
 	{
 		"key": "ctrl+u",
 		"command": "editor.action.transformToUppercase",
 		"when": "editorTextFocus"
 	},
 
-	// CTRL + SHIFT + U - lower case strings
+	// CTRL + SHIFT + U | transform selection to lower case
 	{
 		"key": "ctrl+shift+u",
 		"command": "editor.action.transformToLowercase",
 		"when": "editorTextFocus"
 	},
 
-	// CTRL + M - move file to a new panel
+	// CTRL + M | move file to a new panel
 	{
 		"key": "ctrl+m",
 		"command": "workbench.action.splitEditor"
 	},
 
-	// CTRL + ALT + Right Arrow - move file into next group
+	// CTRL + ALT + RIGHT ARROW | move file into next group
 	{
 		"key": "ctrl+alt+right",
 		"command": "workbench.action.moveEditorToNextGroup"
 	},
 
-	// CTRL + ALT + Left Arrow - move file into previous group
+	// CTRL + ALT + LEFT ARROW | move file into previous group
 	{
 		"key": "ctrl+alt+left",
 		"command": "workbench.action.moveEditorToPreviousGroup"
 	},
 
-	// CTRL + O - open file
+	// CTRL + O | open file
 	{
 		"key": "ctrl+o",
 		"command": "workbench.action.files.openFile"
 	},
 
-	// CTRL + SHIFT + O - open folder
+	// CTRL + SHIFT + O | open folder
 	{
 		"key": "ctrl+shift+o",
 		"command": "workbench.action.files.openFolder"
 	},
 
-	// CTRL + ALT + L - selects the next occurrence of the current word.
+	// CTRL + ALT + L | selects the next occurrence of the current word.
 	{
 		"key": "ctrl+alt+l",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus"
 	},
 
-	// CTRL + P - opens a menu containing all the files within your project's folder
+	// CTRL + P | go to file within your project's folder
 	{
 		"key": "ctrl+p",
 		"command": "workbench.action.quickOpen"
 	},
 
-	// CTRL + ALT + V - opens HTML file in browser (Extension: open in browser = https://github.com/SudoKillMe/vscode-extensions-open-in-browser)
+	// CTRL + ALT + V | opens HTML file in browser (Extension: open in browser = https://github.com/SudoKillMe/vscode-extensions-open-in-browser)
 	{
 		"key": "ctrl+alt+v",
 		"command": "extension.openInDefaultBrowser"
 	},
 
-	// (ABNT2) 	CTRL + ; - select language
-	// (QWERTY) CTRL + / - select language
+	// (ABNT2) 	CTRL + ; | select language
+	// (ANSI) 	CTRL + / | select language
 	{
 		"key": "ctrl+oem_2",
 		"command": "workbench.action.editor.changeLanguageMode"
 	},
 
-	// CTRL + SHIFT + X - view extensions
+	// CTRL + SHIFT + X | view extensions
 	{
 		"key": "ctrl+shift+x",
 		"command": "workbench.view.extensions",
 		"when": "viewContainer.workbench.view.extensions.enabled"
 	},
 
-	// (ABNT2) 	CTRL + ' - toggle integrated terminal
-	// (QWERTY) CTRL + ~ - toggle integrated terminal
+	// (ABNT2) 	CTRL + ' | toggle integrated terminal
+	// (ANSI) 	CTRL + ~ | toggle integrated terminal
 	{
 		"key": "ctrl+oem_3",
 		"command": "workbench.action.terminal.toggleTerminal",
 		"when": "terminal.active"
 	},
 
-	// (ABNT2) 	CTRL + SHIFT + ' - split integrated terminal
-	// (QWERTY) CTRL + SHIFT + ~ - split integrated terminal
+	// (ABNT2) 	CTRL + SHIFT + ' | split integrated terminal
+	// (ANSI) 	CTRL + SHIFT + ~ | split integrated terminal
 	{
 		"key": "ctrl+shift+oem_3",
 		"command": "workbench.action.terminal.split",
 		"when": "terminalFocus && terminalProcessSupported"
 	},
 
-	// CTRL + J - rename symbol (refactor name in all files)
+	// CTRL + J | rename symbol (refactor name in all files)
 	{
 		"key": "ctrl+j",
 		"command": "editor.action.rename"
