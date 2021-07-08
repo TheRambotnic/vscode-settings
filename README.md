@@ -8,6 +8,7 @@ Some settings require these extensions to be installed beforehand:
 * [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+* [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 
 ## For Windows users
 After downloading the files, place them in `%appdata%/Code/User/`.
