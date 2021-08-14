@@ -22,7 +22,7 @@ explaining what each keybind do.
 
 ## Settings
 * **Encoding type**: UTF-8
-* **Font family**: Consolas
+* **Font family**: Consolas (Fallback: monospace)
 * **Word wrap**: OFF
 * **Multi cursor modifier**: CTRL (Windows and Linux) / COMMAND (Mac)
 * **Font size**: 12px
@@ -30,8 +30,4 @@ explaining what each keybind do.
 * **Startup behavior**: start with blank editor
 * **Color scheme**: Monokai (with green-colored comments)
 * **Workspace Trust prompt**: OFF
-
-If you're running VS Code on Linux, open `settings.json` and uncomment line 3 and comment line 4. This will 
-make the editor use Ubuntu Mono as the default font.
-
-Alternatively, if you don't want to mess with the file, you can download the Consolas font family [here](https://www.fontpalace.com/font-download/consolas/).
+* **Accept Suggestion On Commit Character**: OFF
