@@ -1,7 +1,6 @@
 {
 	"files.encoding": "utf8",
-	// "editor.fontFamily": "Ubuntu Mono",
-	"editor.fontFamily": "Consolas",
+	"editor.fontFamily": "'Consolas', 'monospace'",
 	"window.title": "${activeEditorShort}${separator}${rootName}",
 	"editor.wordWrap": "off",
 	"editor.formatOnPaste": true,
@@ -10,6 +9,7 @@
 	"editor.fontSize": 12,
 	"editor.insertSpaces": false,
 	"editor.autoIndent": "advanced",
+	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.tokenColorCustomizations": {
 		"[Monokai]": {
 			"comments": "#0F0"
@@ -33,5 +33,5 @@
 	"workbench.iconTheme": "vscode-icons",
 	"security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.startupPrompt": "never",
-	"security.workspace.trust.enabled": false
+	"security.workspace.trust.enabled": false,
 }
