@@ -12,13 +12,6 @@
 		"command": "editor.action.toggleMinimap"
 	},
 
-	// F5 | execute MSSQL query (Extension: SQL Server (mssql) = https://github.com/Microsoft/vscode-mssql)
-	{
-		"key": "f5",
-		"command": "mssql.runQuery",
-		"when": "editorTextFocus && editorLangId == 'sql'"
-	},
-
 	// F7 | debug start/continue
 	{
 		"key": "f7",
@@ -49,13 +42,6 @@
 		"key": "alt+down",
 		"command": "editor.action.moveLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly"
-	},
-
-	// CTRL + F9 | connect to SQL Server (must have file extension set to SQL)
-	{
-		"key": "ctrl+f9",
-		"command": "mssql.connect",
-		"when": "editorTextFocus && editorLangId == 'sql'"
 	},
 
 	// CTRL + SHIFT + D | duplicate line/selection
@@ -95,7 +81,7 @@
 		"when": "editorTextFocus"
 	},
 
-	// CTRL + M | move file to a new panel
+	// CTRL + M | split editor
 	{
 		"key": "ctrl+m",
 		"command": "workbench.action.splitEditor"
@@ -174,7 +160,7 @@
 		"when": "terminalFocus && terminalProcessSupported"
 	},
 
-	// CTRL + J | rename symbol (refactor name in all files)
+	// CTRL + J | rename symbol (refactor name in entire file)
 	{
 		"key": "ctrl+j",
 		"command": "editor.action.rename"
