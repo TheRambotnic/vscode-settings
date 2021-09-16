@@ -8,6 +8,7 @@ You don't necessarily need them, but they're a cool addition to VS Code :)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 * [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
+* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 ## For Windows users
 After downloading the files, place them in `%appdata%/Code/User/`.
