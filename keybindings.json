@@ -81,10 +81,11 @@
 		"when": "editorTextFocus"
 	},
 
-	// CTRL + M | split editor
+	// CTRL + M | open Markdown preview
 	{
 		"key": "ctrl+m",
-		"command": "workbench.action.splitEditor"
+		"command": "markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
 	},
 
 	// CTRL + ALT + RIGHT ARROW | move file into next group
@@ -440,5 +441,24 @@
 	{
 		"key": "ctrl+alt+left",
 		"command": "-workbench.action.moveEditorToPreviousGroup"
+	},
+	{
+		"key": "ctrl+shift+v",
+		"command": "-markdown.showPreview",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
+	},
+	{
+		"key": "ctrl+shift+m",
+		"command": "markdown.showPreviewToSide",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
+	},
+	{
+		"key": "ctrl+k v",
+		"command": "-markdown.showPreviewToSide",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
+	},
+	{
+		"key": "ctrl+m",
+		"command": "-workbench.action.splitEditor"
 	},
 ]
