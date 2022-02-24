@@ -22,4 +22,5 @@
 	"security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.startupPrompt": "never",
 	"security.workspace.trust.enabled": false,
+	"vsicons.dontShowNewVersionMessage": true,
 }
