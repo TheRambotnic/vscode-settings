@@ -12,14 +12,14 @@
 		"command": "editor.action.toggleMinimap"
 	},
 
-	// [F7] - Debug start/continue
+	// [F5] - Debug start/continue
 	{
-		"key": "f7",
+		"key": "f5",
 		"command": "workbench.action.debug.start",
 		"when": "debuggersAvailable && debugState != 'initializing'"
 	},
 	{
-		"key": "f7",
+		"key": "f5",
 		"command": "workbench.action.debug.continue",
 		"when": "inDebugMode"
 	},
@@ -111,6 +111,12 @@
 	{
 		"key": "ctrl+shift+o",
 		"command": "workbench.action.files.openFolder"
+	},
+
+	// [CTRL + SHIFT + W] - Close folder
+	{
+		"key": "ctrl+shift+w",
+		"command": "workbench.action.closeFolder"
 	},
 
 	// [CTRL + ALT + O] - Add folder to workspace
@@ -473,5 +479,9 @@
 		"key": "ctrl+shift+d",
 		"command": "-editor.action.copyLinesDownAction",
 		"when": "editorFocus"
-	}
+	},
+	{
+		"key": "ctrl+shift+w",
+		"command": "-workbench.action.closeWindow"
+	},
 ]
