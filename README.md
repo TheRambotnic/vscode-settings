@@ -2,13 +2,13 @@
 These are the settings, keybinds, extensions and snippets that I use for Visual Studio Code.
 
 ## Extensions
-You don't necessarily need them, but they're a cool addition to VS Code :)
 * [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 * [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 * [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+* [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 
 ## For Windows users
 After downloading the files, place them in `%appdata%/Code/User/`.

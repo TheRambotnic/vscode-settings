@@ -24,6 +24,14 @@
 		"when": "inDebugMode"
 	},
 
+	// [F5] - Execute query (Only if focused tab has language set to SQL)
+	// * Extension: SQL Server (mssql) - https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql
+	{
+		"key": "f5",
+		"command": "mssql.runQuery",
+		"when": "editorTextFocus && editorLangId == 'sql'"
+	},
+
 	// [F9] - Debug toggle breakpoint
 	{
 		"key": "f9",
@@ -483,5 +491,5 @@
 	{
 		"key": "ctrl+shift+w",
 		"command": "-workbench.action.closeWindow"
-	},
+	}
 ]
