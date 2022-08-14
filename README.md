@@ -17,8 +17,8 @@ After downloading the files, place them in `%appdata%/Code/User/`.
 After downloading the files, place them in `home/YourUserName/.config/Code/User`.
 
 ## Keybindings
-If you'd like to know the keybinds available, you can open `keybindings.json` which contains comments 
-explaining what each keybind do.
+If you'd like to know what keybinds are available, you can open `keybindings.json` which contains comments 
+explaining what each keybind does.
 
 ## Settings
 * **Encoding type**: UTF-8
