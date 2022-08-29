@@ -23,4 +23,10 @@
 	"security.workspace.trust.startupPrompt": "never",
 	"security.workspace.trust.enabled": false,
 	"vsicons.dontShowNewVersionMessage": true,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.defaultDateFormat": null,
+	"gitlens.defaultDateLocale": null,
+	"gitlens.defaultTimeFormat": "HH:mm",
+	"gitlens.defaultDateShortFormat": "D/MM/YYYY",
+	"gitlens.currentLine.enabled": false,
 }
