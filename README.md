@@ -9,6 +9,8 @@ These are the settings, keybinds, extensions and snippets that I use for Visual 
 * [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 * [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 * [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+* [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ## For Windows users
 After downloading the files, place them in `%appdata%/Code/User/`.
