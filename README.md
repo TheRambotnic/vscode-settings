@@ -2,7 +2,6 @@
 These are the settings, keybinds, extensions and snippets that I use for Visual Studio Code.
 
 ## Extensions
-* [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
 * [Selected Lines Count](https://marketplace.visualstudio.com/items?itemName=gurumukhi.selected-lines-count)
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
