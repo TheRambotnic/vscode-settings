@@ -29,4 +29,5 @@
 	"gitlens.defaultTimeFormat": "HH:mm",
 	"gitlens.defaultDateShortFormat": "D/MM/YYYY",
 	"gitlens.currentLine.enabled": false,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 }
